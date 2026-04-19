@@ -13,9 +13,11 @@ Unhandled illegal instruction at address 000000014147C7F8 (thread 0154), startin
 | 10      | 16GB | 32GB  SSD  |
 
 # Connecting to the server
-Players can connect by
-- Using the Invite Code set by the Invite Code variable (and password if set)
+Players can connect by:
+- Using the Direct Connect feature, allowing you to connect to the server using your servers allocated ip:port
+- Using the Invite Code set by the Invite Code variable (and password if set) the Invite Code does not work when Direct Connect is enabled.
 - The Invite Code can be found in /home/container/R5/ServerDescription.json and changed in your Invite Code variable.
 
 ## Server Ports
-- Ports are dynamically assigned via NAT punch-through. Ensure your router supports UPnP. Disable proxy/VPN temporarily if connections fail.
+- With the Invite Code, ports are dynamically assigned via NAT punch-through. Ensure your router supports UPnP. Disable proxy/VPN temporarily if connections fail.
+- With Direct Connect it will use your servers allocated Game Port instead.
