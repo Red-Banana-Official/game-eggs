@@ -14,7 +14,7 @@
         "pid_limit"
     ],
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:java_8": "ghcr.io\/ptero-eggs\/yolks:java_8",
+        "Java 8": "ghcr.io\/ptero-eggs\/yolks:java_8",
         "Java 25": "ghcr.io\/ptero-eggs\/yolks:java_25"
     },
     "file_denylist": [],
