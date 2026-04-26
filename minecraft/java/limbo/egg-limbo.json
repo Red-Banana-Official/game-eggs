@@ -10,7 +10,7 @@
     "description": "Standalone server program Limbo.",
     "features": null,
     "docker_images": {
-        "ghcr.io\/pterodactyl\/yolks:java_17": "ghcr.io\/pterodactyl\/yolks:java_17",
+        "Java 17": "ghcr.io\/pterodactyl\/yolks:java_17",
         "Java 25": "ghcr.io\/ptero-eggs\/yolks:java_25"
     },
     "file_denylist": [],
